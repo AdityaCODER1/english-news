@@ -1,5 +1,5 @@
 {
-  "site_url": "https://adityacoder1.github.io/english-news",
+  "site_url": "https://newzire.in",
   "categories": [
     {
       "id": "india",
@@ -212,7 +212,7 @@
     "brand_title": "Newzire",
     "brand_tagline": "Fast, fact-locked English journalism across India and the world. Sharp reporting on politics, geopolitics, economy, technology, sports, and culture.",
     "contact_label": "Editorial Desk:",
-    "contact_email": "contact@newzire.com",
+    "contact_email": "contact@newzire.in",
     "columns": [
       {
         "id": "news",

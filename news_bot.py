@@ -52,7 +52,7 @@ nvidia_api_key = os.environ.get("NVIDIA_API_KEY")
 client = build_google_client(api_key) if api_key else None
 
 # 2. Brand, Site, Multi-Beat RSS Feeds & Editorial Settings
-DEFAULT_SITE_URL = "https://adityacoder1.github.io/english-news"
+DEFAULT_SITE_URL = "https://newzire.in"
 SITE_URL = DEFAULT_SITE_URL
 SITE_NAME = "Newzire"
 ARCHIVE_FILE = "articles_db.json"
@@ -210,7 +210,7 @@ DEFAULT_SITE_CONFIG = {
         "brand_title": "Newzire",
         "brand_tagline": "Fast, fact-locked English journalism across India and the world. Sharp reporting on politics, geopolitics, economy, technology, sports, and culture.",
         "contact_label": "Editorial Desk:",
-        "contact_email": "contact@newzire.com",
+        "contact_email": "contact@newzire.in",
         "columns": [
             {
                 "id": "news",
@@ -410,7 +410,7 @@ READER_SERVICE_DESKS = {
         "highlights": [
             "PM-RAHAT & Ayushman Bharat: How government medical colleges process cashless trauma and emergency admissions.",
             "Preventive Checkups: Recommended annual cardiac, metabolic, and vitamin panels for working professionals.",
-            "Send a health desk query anytime to health@newzire.com for our Sunday Q&A roundup.",
+            "Send a health desk query anytime to health@newzire.in for our Sunday Q&A roundup.",
         ],
         "cta": "Submit a Health Query",
     },
@@ -475,7 +475,7 @@ READER_SERVICE_DESKS = {
         "summary": "Our verification desk tracks viral claims, doctored visuals, and misleading statistics across India and global social platforms with transparent primary sources.",
         "highlights": [
             "Source Verification: Every Newzire report cross-checks official government releases, court filings, and Tier-1 wire dispatches.",
-            "Spotted a viral claim or factual error? Send the link and claim to factcheck@newzire.com.",
+            "Spotted a viral claim or factual error? Send the link and claim to factcheck@newzire.in.",
             "Corrections Log: All verified updates are reflected directly on the published story page.",
         ],
         "cta": "Submit a Claim to Verify",
