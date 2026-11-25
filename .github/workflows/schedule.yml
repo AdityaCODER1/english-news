@@ -1,0 +1,47 @@
+name: Automated News Bot
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode (fetch = get new RSS article, rebuild = only update HTML)'
+        required: false
+        default: 'fetch'
+
+permissions:
+  contents: write
+
+jobs:
+  run-news-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install required libraries
+        run: pip install -r requirements.txt
+
+      - name: Run News Paraphraser & Website Builder
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "rebuild" ]; then
+            python news_bot.py --rebuild-only
+          else
+            python news_bot.py
+          fi
+
+      - name: Publish Updated Website to Repository
+        run: |
+          git config user.name "Newzire Auto News Bot"
+          git config user.email "actions@github.com"
+          git add *.html articles_db.json sitemap.xml robots.txt news/ uploads/ || git add *.html articles_db.json sitemap.xml robots.txt news/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Newzire English news portal" && git pull --rebase && git push)

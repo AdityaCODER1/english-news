@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adityacoder1.github.io/english-news/sitemap.xml

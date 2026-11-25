@@ -1,0 +1,333 @@
+{
+  "site_url": "https://adityacoder1.github.io/english-news",
+  "categories": [
+    {
+      "id": "india",
+      "name": "India",
+      "file": "india.html",
+      "active_for_ai": true,
+      "aliases": [
+        "India",
+        "National",
+        "Nation",
+        "Domestic"
+      ]
+    },
+    {
+      "id": "world",
+      "name": "World",
+      "file": "world.html",
+      "active_for_ai": true,
+      "aliases": [
+        "World",
+        "International",
+        "Global",
+        "Diplomacy",
+        "Foreign Affairs"
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "file": "politics.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Politics",
+        "Policy",
+        "Parliament",
+        "Governance",
+        "Elections"
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "Economy",
+      "file": "economy.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Economy",
+        "Business",
+        "Markets",
+        "Finance",
+        "Trade"
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "file": "technology.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Technology",
+        "Tech",
+        "Science",
+        "AI",
+        "Space"
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "file": "sports.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Sports",
+        "Cricket",
+        "Athletics"
+      ]
+    },
+    {
+      "id": "opinion",
+      "name": "Opinion",
+      "file": "opinion.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Opinion",
+        "Analysis",
+        "Editorial",
+        "Explainers",
+        "Features",
+        "Interviews"
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "Culture",
+      "file": "culture.html",
+      "active_for_ai": true,
+      "aliases": [
+        "Culture",
+        "Entertainment",
+        "Lifestyle",
+        "Film",
+        "Books",
+        "Travel",
+        "Wellness"
+      ]
+    }
+  ],
+  "custom_pages": [
+    {
+      "id": "about",
+      "title": "About Us | Newzire",
+      "meta_description": "Learn about Newzire — our independent English digital newsroom covering India, World affairs, Economy, Technology, Politics, Sports, and Culture.",
+      "source_fragment": "pages/about.html",
+      "output_file": "about.html",
+      "include_in_sitemap": true,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "contact",
+      "title": "Contact Us | Newzire",
+      "meta_description": "Contact the Newzire editorial team for story tips, factual corrections, press releases, or advertising and partnership inquiries.",
+      "source_fragment": "pages/contact.html",
+      "output_file": "contact.html",
+      "include_in_sitemap": true,
+      "changefreq": "monthly"
+    },
+    {
+      "id": "editorial-policy",
+      "title": "Editorial Policy | Newzire",
+      "meta_description": "Read Newzire's editorial standards, 100% Fact Lock sourcing principles, photo attribution rules, and corrections policy.",
+      "source_fragment": "pages/editorial-policy.html",
+      "output_file": "editorial-policy.html",
+      "include_in_sitemap": true,
+      "changefreq": "yearly"
+    },
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy | Newzire",
+      "meta_description": "Read the Newzire Privacy Policy covering browser theme storage, server logs, cookies, and reader privacy commitments.",
+      "source_fragment": "pages/privacy-policy.html",
+      "output_file": "privacy-policy.html",
+      "include_in_sitemap": true,
+      "changefreq": "yearly"
+    }
+  ],
+  "header": {
+    "enabled": true,
+    "theme": "dark",
+    "layout": "compact",
+    "sticky": true,
+    "show_logo": true,
+    "brand_title": "Newzire",
+    "brand_tagline": "India & World Digital Edition",
+    "nav_style": "underline",
+    "top_bar_enabled": true,
+    "top_bar_show_date": true,
+    "top_bar_text": "New Delhi • Global Desk",
+    "edition_tag": "DIGITAL EDITION • INDIA & WORLD",
+    "hamburger_style": "bars",
+    "mobile_menu_style": "slide-right",
+    "mobile_theme": "auto",
+    "mobile_menu_label": "Menu",
+    "mobile_show_tagline": true,
+    "theme_toggle_enabled": true,
+    "default_color_mode": "dark",
+    "action_links": [],
+    "colors": {}
+  },
+  "header_menu": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "India",
+      "href": "india.html"
+    },
+    {
+      "label": "World",
+      "href": "world.html"
+    },
+    {
+      "label": "Politics",
+      "href": "politics.html"
+    },
+    {
+      "label": "Economy",
+      "href": "economy.html"
+    },
+    {
+      "label": "Technology",
+      "href": "technology.html"
+    },
+    {
+      "label": "Sports",
+      "href": "sports.html"
+    },
+    {
+      "label": "Opinion",
+      "href": "opinion.html"
+    },
+    {
+      "label": "Culture",
+      "href": "culture.html"
+    }
+  ],
+  "footer": {
+    "enabled": true,
+    "theme": "dark",
+    "show_logo": true,
+    "brand_title": "Newzire",
+    "brand_tagline": "Fast, fact-locked English journalism across India and the world. Sharp reporting on politics, geopolitics, economy, technology, sports, and culture.",
+    "contact_label": "Editorial Desk:",
+    "contact_email": "contact@newzire.com",
+    "columns": [
+      {
+        "id": "news",
+        "title": "News & Beats",
+        "links": [
+          { "label": "India (National)", "href": "india.html" },
+          { "label": "World (Global)", "href": "world.html" },
+          { "label": "Politics & Policy", "href": "politics.html" },
+          { "label": "Economy & Markets", "href": "economy.html" },
+          { "label": "Technology & AI", "href": "technology.html" },
+          { "label": "Sports", "href": "sports.html" }
+        ]
+      },
+      {
+        "id": "views",
+        "title": "Views & Culture",
+        "links": [
+          { "label": "Opinion & Analysis", "href": "opinion.html" },
+          { "label": "Culture & Lifestyle", "href": "culture.html" },
+          { "label": "Markets & Explainers", "href": "economy.html" },
+          { "label": "Science & Space", "href": "technology.html" },
+          { "label": "Visual Stories", "href": "index.html#visual-markets-section" },
+          { "label": "Reader Services", "href": "index.html#magazine-services-section" }
+        ]
+      },
+      {
+        "id": "pages",
+        "title": "Newzire & Policies",
+        "links": [
+          { "label": "About Newzire", "href": "about.html" },
+          { "label": "Editorial Policy", "href": "editorial-policy.html" },
+          { "label": "Privacy Policy", "href": "privacy-policy.html" },
+          { "label": "Contact & News Tips", "href": "contact.html" }
+        ]
+      }
+    ],
+    "social_links": [
+      { "label": "X", "href": "https://x.com/newzire_in", "new_tab": true },
+      { "label": "Facebook", "href": "https://facebook.com/NewzireNews", "new_tab": true },
+      { "label": "Instagram", "href": "https://instagram.com/newzire.news", "new_tab": true }
+    ],
+    "copyright_text": "© {year} Newzire Digital Media. All Rights Reserved.",
+    "bottom_note": "DIGITAL EDITION • INDIA & WORLD",
+    "colors": {}
+  },
+  "promo_banner": {
+    "enabled": true,
+    "badge": "SPONSORED • DEAL OF THE DAY",
+    "highlight": "India Tech & Reader Pass • Flat 30% Off",
+    "headline": "Annual Productivity & Cloud Learning Bundle — Exclusive 30% Reader Discount on Career, AI & Finance Certifications",
+    "cta_label": "View Offer →",
+    "modal_title": "India Tech & Reader Pass — Exclusive 30% Off",
+    "modal_summary": "Newzire readers receive an instant 30% partner discount on accredited AI engineering, financial markets, and digital journalism micro-courses across India.",
+    "promo_code": "NEWZIRE30",
+    "footnote": "* Limited-time partner offer valid for Newzire digital edition readers."
+  },
+  "homepage": {
+    "preset": "newzire-editorial",
+    "deduplicate_across_sections": true,
+    "sections": [
+      {
+        "id": "editorial-frontpage",
+        "title": "Frontpage Desk",
+        "subtitle": "Editor's Picks • Lead Story • Latest & Trending",
+        "category": "all",
+        "layout": "editorial-desk",
+        "max_articles": 11,
+        "show_view_all": false,
+        "enabled": true,
+        "bg_theme": "default"
+      },
+      {
+        "id": "cat-india",
+        "title": "India",
+        "subtitle": "National Desk",
+        "category": "india",
+        "layout": "grid",
+        "max_articles": 4,
+        "show_view_all": true,
+        "enabled": true,
+        "bg_theme": "default"
+      },
+      {
+        "id": "cat-world",
+        "title": "World",
+        "subtitle": "Global & Diplomacy",
+        "category": "world",
+        "layout": "grid",
+        "max_articles": 4,
+        "show_view_all": true,
+        "enabled": true,
+        "bg_theme": "default"
+      },
+      {
+        "id": "cat-politics",
+        "title": "Politics & Policy",
+        "subtitle": "Governance & Parliament",
+        "category": "politics",
+        "layout": "grid",
+        "max_articles": 4,
+        "show_view_all": true,
+        "enabled": true,
+        "bg_theme": "default"
+      },
+      {
+        "id": "cat-economy",
+        "title": "Tech & Economy",
+        "subtitle": "Markets, AI & Innovation",
+        "category": "economy",
+        "layout": "grid",
+        "max_articles": 4,
+        "show_view_all": true,
+        "enabled": true,
+        "bg_theme": "default"
+      }
+    ]
+  }
+}
