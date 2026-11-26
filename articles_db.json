@@ -1,5 +1,18 @@
 [
   {
+    "title": "Training vs Inference: Deciphering the Core of India's AI Ecosystem Debates",
+    "category": "Technology",
+    "slug": "sarvam-ai-china-models-controversy",
+    "content_html": "<p>The debate surrounding indigenous technological development and global model integration has taken center stage in India's digital discourse. At the heart of this discussion are critical technical distinctions between training foundational artificial intelligence systems from scratch and running inference on pre-existing architectures, particularly following queries regarding initiatives like Sarvam's Token Factory and the utilization of models developed in China.</p>\n<h2>Understanding the Technical Divide</h2>\n<p>To evaluate India's strategic positioning in the global artificial intelligence landscape, policymakers and technologists must differentiate between the resource-intensive phase of model training and the deployment phase known as inference. While training requires massive computational power, specialized datasets, and heavy capital investment to build neural networks from the ground up, inference involves applying those trained models to generate real-time outputs for everyday users and applications.</p>\n<h2>Implications for India's AI Ambitions</h2>\n<p>The core question facing the domestic tech ecosystem is whether hosting or leveraging models developed abroad—including those from China—compromises the nation's goal of achieving technological self-reliance. Industry stakeholders are actively weighing the economic efficiencies of deploying existing architectures against the absolute strategic necessity of owning indigenous foundational models tailored to India's linguistic diversity and security requirements.</p>\n<h2>Balancing Innovation and Sovereignty</h2>\n<p>As India continues to scale its digital public infrastructure and deep-tech capabilities, navigating these architectural distinctions will shape the trajectory of domestic innovation. Finding the optimal balance between open collaboration and sovereign control remains paramount for ensuring long-term national competitiveness in the global economy.</p>",
+    "image_url": "https://live.staticflickr.com/2284/2263161375_820c5a83c2_b.jpg",
+    "image_courtesy": "Photo Credit: deltaMike / Flickr (Representational)",
+    "original_link": "https://www.thehindu.com/business/training-vs-inference-whats-the-distinction-at-the-heart-of-the-sarvam-ai-china-models-controversy-explained/article71736231.ece",
+    "source_name": "The Hindu Business",
+    "byline": "Newzire Technology Desk",
+    "date": "26 Nov 2026, 04:01 PM",
+    "iso_date": "2026-11-26T16:01:19+00:00"
+  },
+  {
     "title": "Rupee Slides 20 Paise to 92.40 Against US Dollar Amid Proposed 25% Import Tariffs and Bilateral Deal Provision",
     "category": "Economy",
     "slug": "rupee-slides-us-tariff-proposal",
